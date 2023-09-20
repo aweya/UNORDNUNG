@@ -77,9 +77,10 @@ function satz() {
       // Update the current point's position
       currentPt.x += forceX;
       currentPt.y += forceY;
-  //stroke('pink')
+      push()
+  stroke('pink')
       line(currentPt.x, currentPt.y,currentPt.x+random(-moment,+moment), currentPt.y,);
-      
+    stroke(0)
       curveVertex(currentPt.x,currentPt.y);
     }
   
