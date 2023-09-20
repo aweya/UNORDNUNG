@@ -33,7 +33,7 @@ function satz() {
     stroke(0)
     
 
-    points = font.textToPoints('Unordnung', width/10, height / 1.5, 160);
+    points = font.textToPoints('Unordnung', width/6, height / 1.5, 160);
     
     // Store the original positions
     for (let i = 0; i < points.length; i++) {
